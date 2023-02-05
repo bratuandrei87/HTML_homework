@@ -1,0 +1,23 @@
+* {
+    font-family:'Times New Roman', Times, sans-serif
+}
+
+
+
+.tdclass {     font-weight: bold;
+    text-align: center;
+    
+}
+
+.form1 {
+    margin-top: 20px;
+}
+
+.listblock { 
+    display: block;
+}
+
+.buttonstyle { 
+    border-radius: 6px;
+    border-color: aqua;
+}

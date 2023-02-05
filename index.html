@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html  lang="en">
+
+<head>
+<title> This is my html homework </title>
+<meta charset="utf-8"/>
+<meta name="description" content="this is my homework"/>
+<meta name="keywords" content="homework, html"/>
+<meta name="author" content="Bratu Andrei"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" type="text/css" href="./styles.css"/>
+<link rel="shortcut icon" href="./images/homework.jpg" type="image/x-icon"/>
+</head>
+
+<body>
+<header></header>
+
+<main> </main>
+
+<h1 id="header1"> Planets </h1> 
+<table border="2">
+
+
+    <thead>
+      <tr>
+        <th colspan="3"></th>
+        <th> Name  </th>
+        <th class="thnumber" colspan="2">Mass (10<sup>24</sup>kg) </th>
+        <th colspan="2"> Diameter (km) </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tdclass" colspan="3" rowspan="4">  Terrestrial planets </td>
+        <td class="tdclass">  Mercury </td>
+        <td colspan="2">0.330</td>
+        <td colspan="2">4,879</td>
+      </tr>
+      <tr>
+        <td class="tdclass">  Venus  </td>
+        <td colspan="2">4.87</td>
+        <td colspan="2">12,104</td>
+      </tr>
+      <tr>
+        <td class="tdclass">  Earth  </td>
+        <td colspan="2">5.97</td>
+        <td colspan="2">12,756</td>
+      </tr>
+      <tr>
+        <td class="tdclass">  Mars  </td>
+        <td colspan="2">0.642</td>
+        <td colspan="2">6,792</td>
+      </tr>
+      <tr>
+        <td class="tdclass" colspan="2" rowspan="4"> Jovian planets </td>
+        <td class="tdclass" rowspan="2">  Gas giants</td>
+        <td class="tdclass"> Jupiter  </td>
+        <td colspan="2">1898</td>
+        <td colspan="2">142,984</td>
+      </tr>
+      <tr>
+        <td class="tdclass">  Saturn </td>
+        <td colspan="2">568</td>
+        <td colspan="2">120,536</td>
+      </tr>
+      <tr>
+        <td class="tdclass" rowspan="2">  Ice giants</td>
+        <td class="tdclass">  Uranus </td>
+        <td colspan="2">86.8</td>
+        <td colspan="2">51,118</td>
+      </tr>
+      <tr>
+        <td class="tdclass">  Neptune  </td>
+        <td colspan="2">102</td>
+        <td colspan="2">49,528</td>
+      </tr>
+      <tr>
+        <td class="tdclass" colspan="3"> Dwarf planets </td>
+        <td class="tdclass"> Pluto  </td>
+        <td colspan="2">0.0146</td>
+        <td colspan="2">2,370</td>
+      </tr>
+    </tbody>     
+</table>
+
+
+<form class="form1">
+<fieldset> 
+<legend> Ask us about planets </legend> 
+<br>
+
+<label for="fullname"> Full name: </label>
+<input id="fullname" name="fullname" type="text" required min-lenght="5" max-lenght="30">
+
+<br><br>
+
+<label for="email"> Email: </label>
+<input id="email" name="email" type="text"  required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+<br><br>
+
+<p> Favorite planet: </p> 
+
+<div>
+<input id="Mercury" type="radio" name="favouriteplanet" value="Mercury" />
+<label for="Mercury"> Mercury </label>  </div>
+<div>
+<input id="Venus" type="radio" name="favouriteplanet" value="Venus" /> 
+<label for="Venus"> Venus </label> </div> 
+<div>
+<input id="Earth" type="radio" name="favouriteplanet" value="Earth" checked/> 
+<label for="Earth"> Earth </label> </div> 
+<div>
+<input id="Mars" type="radio" name="favouriteplanet" value="Mars"/> 
+<label for="Mars"> Mars </label> </div> 
+<div>
+<input id="Jupiter" type="radio" name="favouriteplanet"  value="Jupiter"/>  
+<label for="Jupiter"> Jupiter </label> </div> 
+<div>
+<input id="Saturn" type="radio" name="favouriteplanet" value="Saturn"/> 
+<label for="Saturn"> Saturn </label> </div> 
+<div>
+<input id="Uranus" type="radio" name="favouriteplanet" value="Uranus"/> 
+<label for="Uranus"> Uranus </label> </div>
+<div>
+<input id="Neptune" type="radio" name="favouriteplanet" value="Neptune"/> 
+<label for="Neptune"> Neptune </label> </div> 
+<div>
+<input id="Pluto" type="radio" name="favouriteplanet" value="Pluto"/> 
+<label for="Pluto"> Pluto </label> </div>
+<br>
+<input type="checkbox" id="agreement" name="agreement"/>
+<lable for="checkbox"> I agree to the <a href="term.html" target="_blank">term and conditions</a>  </lable> 
+<br><br>
+<input class="buttonstyle" type="reset" value="Reset"/>
+<input class="buttonstyle" type="submit" value="Ask away"/>
+</fieldset>
+</form>
+
+<footer> </footer>
+
+</body>
+
+</html>
